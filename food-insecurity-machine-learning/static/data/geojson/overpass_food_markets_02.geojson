@@ -1,0 +1,2469 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-03-06T03:45:14Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/569884803",
+        "name": "Tessoro",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8596062,
+          61.1091238
+        ]
+      },
+      "id": "node/569884803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/846592141",
+        "addr:housenumber": "615",
+        "addr:postcode": "99801",
+        "addr:street": "West Willoughby Avenue",
+        "name": "Food Land",
+        "name:en": "Foodland IGA",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4182598,
+          58.2997192
+        ]
+      },
+      "id": "node/846592141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1285765387",
+        "name": "The Trees",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -132.9270416,
+          56.6859187
+        ]
+      },
+      "id": "node/1285765387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1286827380",
+        "name": "Lil Hammer & Wikan",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -132.9571985,
+          56.8128595
+        ]
+      },
+      "id": "node/1286827380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1286891974",
+        "name": "Hammer & Wikan",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -132.9407538,
+          56.8101124
+        ]
+      },
+      "id": "node/1286891974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1404780925",
+        "name": "Three Bears",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4382628,
+          60.1241197
+        ]
+      },
+      "id": "node/1404780925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1674055998",
+        "name": "Alaska Ship Food Center",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -166.5525885,
+          53.8831793
+        ]
+      },
+      "id": "node/1674055998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1741025259",
+        "amenity": "marketplace",
+        "name": "Lakeview Mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5232952,
+          59.6467305
+        ]
+      },
+      "id": "node/1741025259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1994273861",
+        "name": "Mini Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -131.5705713,
+          55.1244062
+        ]
+      },
+      "id": "node/1994273861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1994580283",
+        "name": "Leask Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -131.5767235,
+          55.1302176
+        ]
+      },
+      "id": "node/1994580283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2113465904",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.8342537,
+          59.775665
+        ]
+      },
+      "id": "node/2113465904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2266046552",
+        "name": "Baycrest Fuel and Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.6389811,
+          59.6579301
+        ]
+      },
+      "id": "node/2266046552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2305717077",
+        "name": "Kasilof Mercantile",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.2593519,
+          60.3210274
+        ]
+      },
+      "id": "node/2305717077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2321196319",
+        "name": "Thurmond's",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.832201,
+          59.7784423
+        ]
+      },
+      "id": "node/2321196319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2383949622",
+        "name": "Coghrill General Store",
+        "opening_hours": "Mo-Fr 08:30-18:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.0962995,
+          64.5628973
+        ]
+      },
+      "id": "node/2383949622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2407662005",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.6819777,
+          60.7743589
+        ]
+      },
+      "id": "node/2407662005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2465021594",
+        "addr:city": "Sitka",
+        "addr:housenumber": "705",
+        "addr:postcode": "99835",
+        "addr:street": "Halibut Point Road",
+        "name": "Lakeside Grocery",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.3462843,
+          57.0568466
+        ]
+      },
+      "id": "node/2465021594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597769240",
+        "name": "Isanotski Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.4127302,
+          54.8654007
+        ]
+      },
+      "id": "node/2597769240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597883666",
+        "name": "Shungnak Native Store",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.1406299,
+          66.8876998
+        ]
+      },
+      "id": "node/2597883666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2598693801",
+        "name": "Ambler Store",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8519313,
+          67.0890597
+        ]
+      },
+      "id": "node/2598693801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2598740739",
+        "name": "Kiana Trading Post",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.424376,
+          66.9746783
+        ]
+      },
+      "id": "node/2598740739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2598740753",
+        "name": "Old IRA store",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.432487,
+          66.9722045
+        ]
+      },
+      "id": "node/2598740753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2598740762",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.4321114,
+          66.9741936
+        ]
+      },
+      "id": "node/2598740762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2598740778",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.4236571,
+          66.9737951
+        ]
+      },
+      "id": "node/2598740778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2600223443",
+        "name": "Atka Native Store",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.1985778,
+          52.197915
+        ]
+      },
+      "id": "node/2600223443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2608918507",
+        "name": "AC Value Center",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.671906,
+          58.6836932
+        ]
+      },
+      "id": "node/2608918507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2609766840",
+        "name": "Monti Bay Foods",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.7339998,
+          59.5500138
+        ]
+      },
+      "id": "node/2609766840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2609766913",
+        "name": "Mallot's General Store",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.738793,
+          59.5507954
+        ]
+      },
+      "id": "node/2609766913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2610371019",
+        "name": "Store",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.8605658,
+          59.1101684
+        ]
+      },
+      "id": "node/2610371019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2611292240",
+        "name": "ANICA Store",
+        "shop": "convenience",
+        "source": "DCRA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.3545707,
+          61.5179644
+        ]
+      },
+      "id": "node/2611292240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2699802625",
+        "name": "Sparks General Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.4865839,
+          62.1069259
+        ]
+      },
+      "id": "node/2699802625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2704107009",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4989642,
+          60.640734
+        ]
+      },
+      "id": "node/2704107009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2981713719",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.6596906,
+          61.7444866
+        ]
+      },
+      "id": "node/2981713719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2984647138",
+        "name": "Grizzly Country Groceries",
+        "note": "Also sells used tires, car batteries",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.6453511,
+          62.0289374
+        ]
+      },
+      "id": "node/2984647138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2986196603",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.4967674,
+          62.8176299
+        ]
+      },
+      "id": "node/2986196603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2995292704",
+        "name": "Ninilchik General Store",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.6764817,
+          60.040772
+        ]
+      },
+      "id": "node/2995292704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997287716",
+        "name": "Cantwell Trading Post",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8905565,
+          63.3968322
+        ]
+      },
+      "id": "node/2997287716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2997287717",
+        "name": "Food Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8927077,
+          63.3951488
+        ]
+      },
+      "id": "node/2997287717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2998830902",
+        "name": "Trapper Creek Trading Post",
+        "note": "showers available",
+        "shop": "convenience",
+        "source:name": "physical sign"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.236882,
+          62.325885
+        ]
+      },
+      "id": "node/2998830902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3007011278",
+        "addr:city": "Talkeetna",
+        "addr:housenumber": "13650",
+        "addr:state": "AK",
+        "addr:street": "East Main Street",
+        "name": "Nagley's General Store",
+        "shop": "supermarket",
+        "website": "http://www.nagleysstore.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.1127,
+          62.323037
+        ]
+      },
+      "id": "node/3007011278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008060981",
+        "name": "Caswell Creek Grocery Food & Tackle",
+        "opening_hours": "Mo-Sa 08:00-20:00, Su 10:00-20:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.0518682,
+          61.9826118
+        ]
+      },
+      "id": "node/3008060981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008060985",
+        "name": "Montana Creek Campground General Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.0591558,
+          62.1036265
+        ]
+      },
+      "id": "node/3008060985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008356685",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.0984132,
+          61.9132281
+        ]
+      },
+      "id": "node/3008356685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008469128",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.0433211,
+          61.739164
+        ]
+      },
+      "id": "node/3008469128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3036918063",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4489644,
+          60.9698561
+        ]
+      },
+      "id": "node/3036918063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118785001",
+        "addr:housename": "Alaska & Proud Market",
+        "addr:housenumber": "3816",
+        "addr:postcode": "99901",
+        "addr:street": "Tongass Avenue",
+        "designation": "Supermarket",
+        "name": "Alaska & Proud Market",
+        "shop": "supermarket",
+        "website": "https://www.akandproud.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -131.6942955,
+          55.3572399
+        ]
+      },
+      "id": "node/3118785001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3331003336",
+        "name": "Cascade Convenience Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.3108949,
+          57.0487099
+        ]
+      },
+      "id": "node/3331003336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3331281432",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7124833,
+          64.8258988
+        ]
+      },
+      "id": "node/3331281432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3331281439",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7504955,
+          64.8373034
+        ]
+      },
+      "id": "node/3331281439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3331281462",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7920698,
+          64.8361082
+        ]
+      },
+      "id": "node/3331281462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3331281483",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7095382,
+          64.8136378
+        ]
+      },
+      "id": "node/3331281483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3331281491",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7142053,
+          64.8257664
+        ]
+      },
+      "id": "node/3331281491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3430738354",
+        "addr:city": "Juneau",
+        "addr:housenumber": "9103",
+        "addr:postcode": "99801",
+        "addr:state": "AK",
+        "addr:street": "Mendenhall Mall Road",
+        "name": "Super Bear Supermarket",
+        "opening_hours": "06:00-23:00",
+        "operator": "Super Bear Supermarket",
+        "phone": "+1-907-789-0173",
+        "shop": "supermarket",
+        "website": "http://superbearsupermarket.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.587655,
+          58.3714256
+        ]
+      },
+      "id": "node/3430738354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3464540143",
+        "internet_access": "yes",
+        "name": "Sunnyside Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.7268349,
+          58.4114482
+        ]
+      },
+      "id": "node/3464540143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3464551372",
+        "name": "Toshco",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.7543666,
+          58.4157232
+        ]
+      },
+      "id": "node/3464551372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3562711681",
+        "name": "Chinook Tesoro",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.6757138,
+          60.039368
+        ]
+      },
+      "id": "node/3562711681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3567709611",
+        "name": "TJ Seggy's",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.1657542,
+          60.4041018
+        ]
+      },
+      "id": "node/3567709611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3575079331",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.8186793,
+          59.8255914
+        ]
+      },
+      "id": "node/3575079331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3575079392",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.6663436,
+          60.0442274
+        ]
+      },
+      "id": "node/3575079392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3591309698",
+        "name": "Big John's",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9820652,
+          60.5010993
+        ]
+      },
+      "id": "node/3591309698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3665552835",
+        "name": "Grizzly Ridge Convenience Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8256315,
+          60.4901454
+        ]
+      },
+      "id": "node/3665552835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3677868348",
+        "atm": "yes",
+        "name": "Alaska Dacha",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6201893,
+          60.9197117
+        ]
+      },
+      "id": "node/3677868348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3703212025",
+        "name": "Ketchikan Dry Goods",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -131.6405574,
+          55.3409336
+        ]
+      },
+      "id": "node/3703212025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3721787053",
+        "amenity": "marketplace",
+        "name": "Birch Hill Market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.6700384,
+          64.869234
+        ]
+      },
+      "id": "node/3721787053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3721787929",
+        "name": "Sourdough Fuel Deli Liquor Food Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.6741701,
+          64.8690289
+        ]
+      },
+      "id": "node/3721787929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3936906231",
+        "name": "Tesoro2Go",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.3496888,
+          64.7592473
+        ]
+      },
+      "id": "node/3936906231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3957447100",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8164927,
+          61.5459029
+        ]
+      },
+      "id": "node/3957447100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4102779545",
+        "name": "Nichol's Front Door Store",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.758238,
+          60.5454026
+        ]
+      },
+      "id": "node/4102779545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4204943892",
+        "amenity": "fuel",
+        "name": "Chevron;Gateway Liquor & Food Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4412503,
+          60.1188239
+        ]
+      },
+      "id": "node/4204943892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4225608416",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.1719428,
+          60.9405689
+        ]
+      },
+      "id": "node/4225608416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4225977435",
+        "name": "Cooper Landing Grocery",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8206887,
+          60.4896671
+        ]
+      },
+      "id": "node/4225977435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4360466079",
+        "cuisine": "coffee_shop",
+        "name": "Estes Bros. Grocery",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.3712295,
+          60.4885426
+        ]
+      },
+      "id": "node/4360466079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4413564686",
+        "addr:city": "Palmer",
+        "addr:state": "AK",
+        "addr:street": "Old Glenn Highway",
+        "building": "retail",
+        "name": "The Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.0343337,
+          61.5483547
+        ]
+      },
+      "id": "node/4413564686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4419551906",
+        "name": "Commissary",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.634241,
+          64.8250819
+        ]
+      },
+      "id": "node/4419551906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4419654638",
+        "amenity": "fuel",
+        "name": "Express",
+        "operator": "AAFES",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.0910649,
+          64.6774508
+        ]
+      },
+      "id": "node/4419654638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4419810694",
+        "name": "Commissary",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.0860446,
+          64.6769556
+        ]
+      },
+      "id": "node/4419810694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4517031602",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.0609877,
+          62.6706537
+        ]
+      },
+      "id": "node/4517031602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4576277165",
+        "name": "North Country Mercantile",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.4763955,
+          65.4903948
+        ]
+      },
+      "id": "node/4576277165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4687312748",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.8415146,
+          66.9854908
+        ]
+      },
+      "id": "node/4687312748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4806225239",
+        "addr:housenumber": "434",
+        "addr:postcode": "99501",
+        "addr:street": "K Street",
+        "name": "K Street Convenience Store",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-18:00",
+        "phone": "+19073346401",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9019073,
+          61.2176736
+        ]
+      },
+      "id": "node/4806225239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4946680607",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.6172775,
+          64.9575149
+        ]
+      },
+      "id": "node/4946680607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4957876198",
+        "name": "Great 1 Grab 'n' Go Grocery",
+        "shop": "grocery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8952722,
+          63.7443455
+        ]
+      },
+      "id": "node/4957876198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4965020022",
+        "name": "Denali General Store",
+        "shop": "grocery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8993895,
+          63.7490038
+        ]
+      },
+      "id": "node/4965020022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5027706372",
+        "name": "Power Stop",
+        "opening_hours": "06:00-23:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5377417,
+          59.642649
+        ]
+      },
+      "id": "node/5027706372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5029126066",
+        "name": "Mini Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.6854293,
+          60.7722203
+        ]
+      },
+      "id": "node/5029126066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5063208991",
+        "name": "Gold Hill",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.9515076,
+          64.847005
+        ]
+      },
+      "id": "node/5063208991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5065236041",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.0180451,
+          63.865327
+        ]
+      },
+      "id": "node/5065236041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5553174212",
+        "name": "Shell",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.7775541,
+          61.2092743
+        ]
+      },
+      "id": "node/5553174212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5810959043",
+        "name": "Creek Side Trading Post",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.5429455,
+          62.0482811
+        ]
+      },
+      "id": "node/5810959043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5903427944",
+        "name": "Tesoro",
+        "shop": "convenience",
+        "source": "EsriWorldImagery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4406827,
+          61.5813377
+        ]
+      },
+      "id": "node/5903427944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5997183662",
+        "addr:city": "Wasilla",
+        "addr:housenumber": "3065",
+        "addr:postcode": "99654",
+        "addr:state": "AK",
+        "addr:street": "North Church Road",
+        "name": "Valley Country Store",
+        "phone": "(907) 376-7151",
+        "shop": "convenience",
+        "source": "EsriWorldImagery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5107904,
+          61.613246
+        ]
+      },
+      "id": "node/5997183662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6001874512",
+        "shop": "convenience",
+        "source": "EsriWorldImagery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.3947835,
+          61.6143372
+        ]
+      },
+      "id": "node/6001874512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6011349892",
+        "addr:city": "Wasilla",
+        "addr:housenumber": "601",
+        "addr:postcode": "99654",
+        "addr:state": "AK",
+        "addr:street": "West Parks Highway",
+        "name": "Chevron Food Mart",
+        "opening_hours": "24/7",
+        "phone": "(907) 376-5900",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4663185,
+          61.5820669
+        ]
+      },
+      "id": "node/6011349892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6011708656",
+        "shop": "convenience",
+        "source": "EsriWorldImagery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.6040166,
+          61.5806173
+        ]
+      },
+      "id": "node/6011708656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6023624717",
+        "name": "Sockeye Trading",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.6707309,
+          58.6835435
+        ]
+      },
+      "id": "node/6023624717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6038345248",
+        "shop": "convenience",
+        "source": "EsriWorldImagery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.5666045,
+          61.329667
+        ]
+      },
+      "id": "node/6038345248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6074807638",
+        "name": "Holiday StationStore",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8305766,
+          64.8486357
+        ]
+      },
+      "id": "node/6074807638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6101508779",
+        "name": "Tesoro",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8687875,
+          64.8473413
+        ]
+      },
+      "id": "node/6101508779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6108808434",
+        "brand": "Holiday",
+        "brand:wikidata": "Q5880490",
+        "brand:wikipedia": "en:Holiday Stationstores",
+        "name": "Holiday",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.853739,
+          61.1453215
+        ]
+      },
+      "id": "node/6108808434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6110212207",
+        "name": "Holiday",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.865229,
+          61.1245744
+        ]
+      },
+      "id": "node/6110212207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6339005954",
+        "name": "Alaska Commercial Store",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.6721952,
+          58.6837739
+        ]
+      },
+      "id": "node/6339005954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6386880471",
+        "addr:city": "Sitka",
+        "addr:housenumber": "303",
+        "addr:postcode": "99835",
+        "addr:state": "AK",
+        "addr:street": "Lincoln Street",
+        "name": "Bear Country Convenience & Coffee",
+        "opening_hours": "Mo-Su 07:30-24:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.334869,
+          57.0503392
+        ]
+      },
+      "id": "node/6386880471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6585326457",
+        "name": "Cole's Market",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.4549473,
+          59.6655461
+        ]
+      },
+      "id": "node/6585326457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6654003564",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9130096,
+          60.5107518
+        ]
+      },
+      "id": "node/6654003564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6952487950",
+        "cuisine": "mexican",
+        "name": "Mexico Lindo",
+        "opening_hours": "Mo-Sa 09:30-20:00; Su 12:30-18:00",
+        "shop": "grocery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9058466,
+          61.1810068
+        ]
+      },
+      "id": "node/6952487950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7132151143",
+        "addr:city": "Utqiaġvik",
+        "addr:housenumber": "4725",
+        "addr:postcode": "99723",
+        "addr:state": "AK",
+        "addr:street": "Ahkovak Street",
+        "name": "Stuaqpak",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-21:00",
+        "phone": "+1 907 852 4600",
+        "shop": "supermarket",
+        "website": "https://www.stuaqpak.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.7553981,
+          71.298987
+        ]
+      },
+      "id": "node/7132151143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7393871913",
+        "name": "Gateway Liquor & Food Mart",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4408032,
+          60.1188329
+        ]
+      },
+      "id": "node/7393871913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7567276797",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "2435",
+        "addr:postcode": "99503",
+        "addr:state": "AK",
+        "addr:street": "Spenard Road",
+        "amenity": "marketplace",
+        "description": "The Spenard Farmers Market is a volunteer-run, community-based effort to create a quality farmers market.",
+        "name": "Spenard Farmers Market",
+        "note": "The Market usually starts the first weekend in May and ends the last weekend in Septmeber.",
+        "opening_hours": "Sa 09:00-14:00",
+        "opening_hours:covid19": "same",
+        "phone": "(907) 240-3868",
+        "website": "https://www.facebook.com/spenardfarmersmarket/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.904849,
+          61.197464
+        ]
+      },
+      "id": "node/7567276797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7692885697",
+        "name": "City Market",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -132.3810938,
+          56.4699614
+        ]
+      },
+      "id": "node/7692885697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8238489717",
+        "addr:housenumber": "150",
+        "addr:postcode": "99587",
+        "addr:street": "Hightower Road",
+        "name": "Crow Creek Mercantile",
+        "opening_hours": "Mo-Fr 07:00-24:00; Sa-Su 08:00-24:00",
+        "phone": "+19077833900",
+        "shop": "supermarket",
+        "website": "http://safeway.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.1341308,
+          60.9627471
+        ]
+      },
+      "id": "node/8238489717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8567313189",
+        "addr:city": "Kaktovik",
+        "addr:housenumber": "614",
+        "addr:postcode": "99747",
+        "addr:state": "AK",
+        "addr:street": "6th Street",
+        "name": "Kikiktak Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.6117578,
+          70.1264348
+        ]
+      },
+      "id": "node/8567313189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8567485062",
+        "addr:city": "Utqiaġvik",
+        "addr:housenumber": "1250",
+        "addr:postcode": "99723",
+        "addr:state": "AK",
+        "addr:street": "Agvik Street",
+        "name": "Stuaqpak Quick Stop",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.7856382,
+          71.2923867
+        ]
+      },
+      "id": "node/8567485062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8572825741",
+        "addr:city": "Fairbanks",
+        "addr:country": "US",
+        "addr:housenumber": "741",
+        "addr:postcode": "99775",
+        "addr:state": "AK",
+        "addr:street": "Yukon Drive",
+        "name": "Campus Cache",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "operator": "University of Alaska Fairbanks",
+        "phone": "+1-907-4745315",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.8298291,
+          64.8584896
+        ]
+      },
+      "id": "node/8572825741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8837114888",
+        "brand": "Chevron",
+        "brand:wikidata": "Q319642",
+        "brand:wikipedia": "en:Chevron Corporation",
+        "name": "Chevron",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8348806,
+          61.138173
+        ]
+      },
+      "id": "node/8837114888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8896929563",
+        "name": "Garden Island Party Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.7220505,
+          64.8478074
+        ]
+      },
+      "id": "node/8896929563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8899543484",
+        "addr:city": "Fairbanks",
+        "addr:housenumber": "526",
+        "addr:postcode": "99701",
+        "addr:state": "AK",
+        "addr:street": "Gaffney Road",
+        "name": "Co-Op Market Grocery & Deli",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 10:00-19:00",
+        "phone": "+1-907-457-1023",
+        "shop": "supermarket",
+        "website": "https://coopmarket.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.715394,
+          64.837328
+        ]
+      },
+      "id": "node/8899543484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8990627383",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "800",
+        "addr:postcode": "99515",
+        "addr:state": "AK",
+        "addr:street": "East Dimond Boulevard",
+        "amenity": "marketplace",
+        "building": "no",
+        "description": "The market is the largest open-air market in the state. It is a showcase for local artisans, and you’ll find the produce of the season as well.",
+        "name": "Anchorage Market at Dimond Center",
+        "opening_hours": "Fr-Sa 10:00-18:00, Su 10:00-17:00",
+        "opening_hours:covid19": "same",
+        "operator": "Alaska Markets & Events, Inc.",
+        "phone": "1-907-272-5634",
+        "website": "https://anchoragemarkets.com/anchorage-market/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.86837,
+          61.1416002
+        ]
+      },
+      "id": "node/8990627383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9000086714",
+        "name": "Sinona Creek Trading Post",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.6518406,
+          62.5857444
+        ]
+      },
+      "id": "node/9000086714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9106680737",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -169.5453434,
+          56.6015112
+        ]
+      },
+      "id": "node/9106680737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9572161215",
+        "addr:city": "McGrath",
+        "addr:housenumber": "175",
+        "addr:postcode": "99627",
+        "addr:state": "AK",
+        "addr:street": "Main Street",
+        "name": "Alaska Commercial Company",
+        "opening_hours": "Mo-Sa 10:00-19:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.5941511,
+          62.9575097
+        ]
+      },
+      "id": "node/9572161215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9704301634",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "name": "Speedway",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4097741,
+          61.5778503
+        ]
+      },
+      "id": "node/9704301634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9731651932",
+        "addr:city": "Anchorage",
+        "addr:country": "US",
+        "addr:housenumber": "8",
+        "addr:postcode": "99503",
+        "addr:state": "AK",
+        "addr:street": "Minnesota Drive",
+        "fax": "907-644-0452",
+        "name": "Stop N' Shop Asian Market",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 12:00-20:00",
+        "phone": "907-644-0449",
+        "shop": "supermarket",
+        "website": "https://stopnshopak.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.9138003,
+          61.1924582
+        ]
+      },
+      "id": "node/9731651932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9883679422",
+        "name": "Wrangell IGA",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -132.3838013,
+          56.4704778
+        ]
+      },
+      "id": "node/9883679422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9923445343",
+        "name": "Alaska Commercial Company",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.5448129,
+          62.777675
+        ]
+      },
+      "id": "node/9923445343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9923453118",
+        "name": "Ruby Commercial Company",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.4932657,
+          64.738532
+        ]
+      },
+      "id": "node/9923453118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9923453218",
+        "name": "Riverside",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.0819311,
+          65.1707635
+        ]
+      },
+      "id": "node/9923453218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10009475342",
+        "brand": "Safeway",
+        "brand:wikidata": "Q1508234",
+        "brand:wikipedia": "en:Safeway Inc.",
+        "name": "Safeway",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.3489428,
+          61.1315091
+        ]
+      },
+      "id": "node/10009475342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10019479238",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "600",
+        "addr:postcode": "99503",
+        "addr:state": "AK",
+        "addr:street": "E Northern Lights Blvd",
+        "amenity": "marketplace",
+        "building": "yes",
+        "description": "Wednesdays and Fridays from 10 a.m. - 6 p.m. and Saturdays at 10 a.m. - 4 p.m. inside the Midtown Mall, making it \"Alaska's only year-round market.\"",
+        "name": "Center Market",
+        "phone": "(907) 355-3276",
+        "website": "https://centermarketak.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.873594,
+          61.1941982
+        ]
+      },
+      "id": "node/10019479238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10019479239",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "900",
+        "addr:postcode": "99508",
+        "addr:state": "AK",
+        "addr:street": "Benson Blvd.",
+        "amenity": "marketplace",
+        "description": "Saturdays from 9 a.m - 2 p.m. at Hilcorp BP Alaska building parking lot. July through October.",
+        "name": "Midtown Anchorage Farmers Market",
+        "website": "http://anchoragemidtownfarmersmarket.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.864832,
+          61.1914309
+        ]
+      },
+      "id": "node/10019479239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10019479240",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "8400",
+        "addr:postcode": "99504",
+        "addr:state": "AK",
+        "addr:street": "Starview Dr.",
+        "amenity": "marketplace",
+        "description": "Saturdays and Sundays from 10 a.m. Foods, veggies and grown in Alaska, with roots across the Pacific. May through September.",
+        "email": "Penaparkmarket@gmail.com",
+        "name": "Pena Park Market",
+        "website": "https://www.facebook.com/PenaParkMarket/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.72977,
+          61.2263346
+        ]
+      },
+      "id": "node/10019479240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10019479241",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "11111",
+        "addr:postcode": "99515",
+        "addr:state": "AK",
+        "addr:street": "O'Malley Centre Drive",
+        "amenity": "marketplace",
+        "building": "no",
+        "description": "Saturday from 9 a.m. - 2 p.m. at the O'Malley Sports Center. Wednesdays 10 a.m. - 4 p.m. at Dimond Center Mall, south parking lot.",
+        "name": "South Anchorage Farmers Market",
+        "website": "https://www.safm.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.86067,
+          61.1201084
+        ]
+      },
+      "id": "node/10019479241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10019479242",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "1301",
+        "addr:postcode": "99504",
+        "addr:state": "AK",
+        "addr:street": "Muldoon Road",
+        "amenity": "marketplace",
+        "building": "no",
+        "description": "Saturdays from 9 a.m. - 2 p.m. at Chanshtnu Muldoon Park.",
+        "email": "muldoonfarmersmarket@yahoo.com",
+        "name": "Muldoon Farmers Market",
+        "website": "https://muldoonfarmersmarket.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.732625,
+          61.2088663
+        ]
+      },
+      "id": "node/10019479242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10019479243",
+        "addr:city": "Eagle River",
+        "addr:housenumber": "12110",
+        "addr:postcode": "99577",
+        "addr:state": "AK",
+        "addr:street": "Business Boulevard",
+        "amenity": "marketplace",
+        "building": "no",
+        "description": "Saturdays 10 a.m. - 4 p.m. at 12110 Business Blvd in Eagle River.",
+        "name": "Eagle River Farmers Market",
+        "website": "https://dnr.alaska.gov/ag/Marketing/FarmersMarkets2016.pdf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.570095,
+          61.3301019
+        ]
+      },
+      "id": "node/10019479243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10019479244",
+        "addr:city": "Eagle River",
+        "addr:housenumber": "10527",
+        "addr:postcode": "99577",
+        "addr:state": "AK",
+        "addr:street": "Eagle River Road",
+        "amenity": "marketplace",
+        "building": "no",
+        "description": "Tuesdays 3 - 7 p.m. in the VFW Post parking lot.",
+        "name": "Eagle River Farmers Market",
+        "website": "https://dnr.alaska.gov/ag/Marketing/FarmersMarkets2016.pdf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.572063,
+          61.3157311
+        ]
+      },
+      "id": "node/10019479244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10019479245",
+        "addr:city": "anchorage",
+        "addr:housenumber": "3601",
+        "addr:postcode": "99508",
+        "addr:state": "ak",
+        "addr:street": "Mountain View Drive",
+        "amenity": "marketplace",
+        "building": "no",
+        "description": "A cooperative urban farm offering fresh produce and hot food at regular weekly farm stands. Mondays, Thursdays, and Fridays from 4 - 7 p.m. June through September.",
+        "name": "Grow North Farm",
+        "website": "https://anchoragelandtrust.org/grow-north-farm/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.814339,
+          61.2245063
+        ]
+      },
+      "id": "node/10019479245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10574097660",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "555",
+        "addr:postcode": "99501",
+        "addr:state": "AK",
+        "addr:street": "West 5th Avenue",
+        "amenity": "marketplace",
+        "building": "no",
+        "description": "A new initiative from the Anchorage Downtown Partnership and Humpy’s Great Alaskan Alehouse. It’s a downtown market and street fair “for locals, by locals.” Every Sunday, Humpy’s sets up its beer garden in Town Square Park and vendors set up shop.",
+        "email": "ccaines@anchoragedowntown.org",
+        "name": "ANC Market Social",
+        "phone": "(907) 279-5620",
+        "website": "https://anchoragedowntown.org/anc-market-social/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8927578,
+          61.2170582
+        ]
+      },
+      "id": "node/10574097660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10574097661",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "1420",
+        "addr:postcode": "99501",
+        "addr:state": "AK",
+        "addr:street": "Cordova Street",
+        "amenity": "marketplace",
+        "building": "no",
+        "description": "Sat 9 AM–2 PM during summer and fall.",
+        "name": "Central Lutheran Market",
+        "website": "https://www.anchoragefarmersmarket.org/our-vendors/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.8808154,
+          61.2081259
+        ]
+      },
+      "id": "node/10574097661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10574097662",
+        "addr:city": "Anchorage",
+        "addr:housenumber": "148",
+        "addr:postcode": "99587",
+        "addr:state": "AK",
+        "addr:street": "Holmgren Avenue",
+        "amenity": "marketplace",
+        "building": "no",
+        "description": "Late May - Early September. 11:00 AM - 4:00 PM",
+        "email": "girdwoodfarmersmarket@gmail.com",
+        "name": "Girdwood Farmers Market",
+        "website": "https://www.girdwoodlandtrust.org/into-the-woods-market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.1350002,
+          60.9632543
+        ]
+      },
+      "id": "node/10574097662"
+    }
+  ]
+}

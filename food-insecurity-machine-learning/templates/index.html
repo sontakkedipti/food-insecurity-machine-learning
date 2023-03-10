@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Food Equity ML</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../static/css/style.css">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+            integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+        <!-- Font-Awesome -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+    </head>
+
+    <body>
+        <!-- Bootstrap navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container navbar-container">
+                <a class="navbar-brand" href="#">Food Equity ML</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro-section">Intro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#modeling-section">Modeling</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mapping-section">Mapping</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tableau-section">Charts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#conclusion-section">Conclusion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team-section">Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="bgimg-1">
+            <div class="caption">
+                <span class="border">Food Equity ML</span>
+                <br>
+                <h1 class="mt-5">Bridging the Gap Between Access and Insecurity with Machine Learning</h1>
+            </div>
+        </div>
+
+        <div id="intro-section" class="banner-white banner-container fluid-container mx-auto">
+            <h3 class="container my-3" style="text-align:center;">Food Insecurity & Machine Learning (ML)</h3>
+            <p class="intro-text">Sociodemographic risk factors such as low income, unemployement, race/ethnicity,
+                and disability may predispose people to food insecurity, which is the limited access to healthy food in
+                terms of distance or affordability.
+                People experiencing food insecurity are at higher risk of obesity, chronic diseases, developmental
+                problems, and poor mental health. Food insecurity is a wide-spread problem with 13.8 million out of
+                128.6 million
+                households being affected at least part of the year in 2020 (<a
+                    href="https://health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/food-insecurity"
+                    target="_blank">HHS</a>).
+            </p>
+            <hr>
+            <p class="intro-text">
+                For the Food Equity ML project, we conducted an analysis of food insecurity for populations within a
+                1/2 radius for urban census tracts and a 10 mile radius for rural census tracts to identify potential
+                sociodemographic risk factors. To accomplish this, we applied machine learning algorithms to analyze
+                data from the Food Access Research Atlas published by the US Department of Agriculture (UDSA).
+                We further analyzed the data using geospatial mapping and data visualization tools to explore the
+                dataset for corresponding results.
+            </p>
+        </div>
+
+        <div class="bgimg-2">
+            <div class="caption">
+                <span class="border sub-section">Raw Data</span>
+            </div>
+        </div>
+
+        <div style="position:relative;">
+            <div class="sub-section-text">
+                <div class="banner-black banner-container fluid-container mx-auto text-center">
+                    <p class="intro-text">Records: 72,530 | Columns: 147</p>
+                    <p class="intro-text">Source: <a
+                            href="https://www.ers.usda.gov/data-products/food-access-research-atlas/" target="_blank"
+                            class="link-text">
+                            Food Access Research Atlas</a></p>
+                    <!-- <p class="intro-text">Initial Number of Columns: 147</p> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="bgimg-3">
+            <div class="caption">
+                <span class="border sub-section">Final Data</span>
+            </div>
+        </div>
+
+        <div style="position:relative;">
+            <div class="sub-section-text">
+                <div class="banner-black banner-container fluid-container mx-auto text-center">
+                    <p class="intro-text">Records: 67,286 | Columns: 47</p>
+                    <!-- <p class="intro-text">Columns: 47</p> -->
+                    <p class="intro-text">Target Variable: LAhalfand10 - US Census tracts with low access within 0.5 mi
+                        (urban) and 10 mi (rural) of a food market</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bgimg-1">
+            <div class="caption">
+                <span class="border">Haroon...give us an A+ por favor</span>
+            </div>
+        </div>
+
+        <div class="fluid-container mx-auto my-5 results-container" style="max-width: 1627px">
+            <div id="modeling-section" class="row">
+                <div class="row mt-5">
+                    <h3 class="mt-2">Machine Learning</h3>
+                </div>
+                <div class="row">
+                    <h4 class="mt-4"><strong>Supervised Machine Learning</strong></h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="mt-4">Overview</h4>
+                        <ul>
+                            <li class="result-text">Food access dataset is a labeled (LAhalfand10) dataset and has two
+                                class labels – secure (0) and insecure (1). we used various binary classification
+                                supervised machine learning
+                                models to get the best performing model. </li>
+                            <li class="result-text">Out of all the binary classification models tested, Random Forest
+                                Classifier and neural
+                                network gave the highest accuracy (79%).</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="mt-4">Score Card</h4>
+                        <img class="img-tbl" src="../static/img/ml_supervised_ml_score_card.png"
+                            alt="supervised learning machine learning score card">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row mt-4">
+                    <h4><strong>Random Forest Classification</strong></h4>
+                </div>
+                <div class="row">
+                    <div class=col-md-12>
+                        <h4 class="mt-4">Results</h4>
+                        <ul>
+                            <li class="result-text">
+                                Our model doesn’t generalize well from our training data to testing data (overfitting).
+                                This
+                                might be due to missing important features, presence of unimportant features, having
+                                high
+                                max depth and estimators.
+                            </li>
+                            <li class="result-text">
+                                Hyperparameter tuning with GridCV resolved the overfitting issue with some decrease in
+                                accuracy.
+                            </li>
+                            <li class="result-text">
+                                Hyperparameter tuning also resulted into increased recall for insecured class (1).
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="mt-4">Score Card</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">Model</th>
+                                    <th rowspan="2">Optimization</th>
+                                    <th rowspan="2">Training Score</th>
+                                    <th rowspan="2">Testing Score</th>
+                                    <th rowspan="2">Accuracy</th>
+                                    <th class="top" colspan="2">Precision</th>
+                                    <th class="top" colspan="2">Recall</th>
+                                    <th class="top" colspan="2">F1 Score</th>
+                                </tr>
+                                <tr>
+                                    <th>Secure (0)</th>
+                                    <th>Insecure (1)</th>
+                                    <th>Secure (0)</th>
+                                    <th>Insecure (1)</th>
+                                    <th>Secure (0)</th>
+                                    <th>Insecure (1)</th>
+                                </tr>
+                            </thead>
+                            <tbody class='text-center'>
+                                <tr>
+                                    <td><b>Random Forest Classifier_1</b></td>
+                                    <td>n/a</td>
+                                    <td>1.00</td>
+                                    <td>0.78</td>
+                                    <td>0.78</td>
+                                    <td>0.71</td>
+                                    <td>0.80</td>
+                                    <td>0.50</td>
+                                    <td>0.91</td>
+                                    <td>0.59</td>
+                                    <td>0.85</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Random Forest Classifer_2.1</b></td>
+                                    <td>Feature addition (n=13)</td>
+                                    <td>1.00</td>
+                                    <td>0.84</td>
+                                    <td>0.85</td>
+                                    <td>0.76</td>
+                                    <td>0.87</td>
+                                    <td>0.65</td>
+                                    <td>0.92</td>
+                                    <td>0.70</td>
+                                    <td>0.90</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Random Forest Classifier_2.2</b></td>
+                                    <td>Feature selection (did not drop any columns)</td>
+                                    <td>1.00</td>
+                                    <td>0.84</td>
+                                    <td class="salmon">0.84</td>
+                                    <td>0.75</td>
+                                    <td>0.87</td>
+                                    <td>0.63</td>
+                                    <td class="skyblue">0.92</td>
+                                    <td>0.68</td>
+                                    <td>0.89</td>
+                                </tr>
+                                <tr>
+                                    <td class="bottom"><b>Random Forest Classifier_2.3</b></td>
+                                    <td class="bottom">Hyperparameter Tuning with GridSearchCV (max_depth: [3, 5, 7],
+                                        n_estimators: [50, 100, 200]</td>
+                                    <td class="bottom yellow">0.83</td>
+                                    <td class="bottom yellow">0.82</td>
+                                    <td class="bottom salmon">0.82</td>
+                                    <td class="bottom">0.77</td>
+                                    <td class="bottom">0.83</td>
+                                    <td class="bottom">0.49</td>
+                                    <td class="bottom skyblue">0.94</td>
+                                    <td class="bottom">0.60</td>
+                                    <td class="bottom">0.88</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="mt-4">Feature Selection</h4>
+                        <p class="result-text">In general, low access population demographic features are significantly
+                            important. Surprisingly median household income and poverty rate features do not seem to be
+                            that important.</p>
+                        <img class="img-ml" src="../static/img/ml_feature_selection_plot.png"
+                            alt="random forest classifer model tree">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="mt-4">Random Forest Classification Model Tree</h4>
+                        <p class="result-text">This tree plot shows slight imbalance in our dataset, with
+                            higher insecure population data as compared to secure population. This can be used for
+                            future optimization.</p>
+                        <img class="img-ml" src="../static/img/ml_tree.png" alt="random forest classifer model tree">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <h4 class="mt-4"><strong>TensorFlow: Neural Networks</strong></h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="mt-4">Neural Network Diagram</h4>
+                        <div class="img-container">
+                            <img class="img-tf" src="../static/img/ml_tf_neural_network.png"
+                                alt="random forest classifier optimization results">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="mt-4">Results</h4>
+                        <p class="result-text">We chose Tensorflow as our neural network platform due to its
+                            flexibility, wide range of deep learning applications, and because our data isn't deeply
+                            complex. The model chosen was tf.keras.Sequential, as it arranges the layers in a linear,
+                            top-to-bottom approach. We used two hidden layers with 8 and 16 neurons respectively, with
+                            30 dimensions, and trained this model in 80 epochs. We achieved an accuracy of 85% with a
+                            loss
+                            of 32%, meaning our model is relatively accurate predictions while also being correct in its
+                            predictions for approximately 85% of the samples in the dataset.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Leaflet Map -->
+            <div id="mapping-section" class="mb-5">
+                <div class="row mt-5">
+                    <h3 class="mt-5">US Census Tracts with Low Food Access and Location of Food Markets</h3>
+                </div>
+                <div class="row">
+                    <div class="dropdown mt-2">
+                        <b>Select Jurisdiction</b>
+                        <div class="dropdown-content mt-2 d-flex">
+                            <select id="jurisdiction-dropdown" onchange="jurisdictionChanged(this.value)"></select>
+                            <button type="button" class="btn btn-outline-secondary btn-block rounded-0"
+                                onclick='resetMap()'>Reset Map</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="map-button" class="leaflet-control">
+                    </div>
+                    <div id="myMap" class="mt-3"></div>
+                    <p>* A flag for low food access is an indication that a significant proportion of residents live
+                        beyond 0.5 miles in urban areas and beyond
+                        10 miles in rural areas from the nearest food market</p>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Tableau Charts -->
+            <div id='tableau-section' class="my-5">
+                <div class="row">
+                    <div class="col-md-12 mt-4">
+                        <h3>Comparison of Food Secure and Insecure Populations and Households</h3>
+                        <div class='tableauPlaceholder' id='viz1678121739210' style='position: relative'>
+                            <noscript>
+                                <a href='#'>
+                                    <img alt='Food Security across US Census Tracts '
+                                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;TractSNAPSECUREVSINSECURE&#47;another&#47;1_rss.png'
+                                        style='border: none' />
+                                </a>
+                            </noscript>
+                            <object class='tableauViz' style='display:none;'>
+                                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                <param name='embed_code_version' value='3' />
+                                <param name='site_root' value='' />
+                                <param name='name' value='TractSNAPSECUREVSINSECURE&#47;another' />
+                                <param name='tabs' value='no' />
+                                <param name='toolbar' value='yes' />
+                                <param name='static_image'
+                                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;TractSNAPSECUREVSINSECURE&#47;another&#47;1.png' />
+                                <param name='animate_transition' value='yes' />
+                                <param name='display_static_image' value='yes' />
+                                <param name='display_spinner' value='yes' />
+                                <param name='display_overlay' value='yes' />
+                                <param name='display_count' value='yes' />
+                                <param name='language' value='en-US' />
+                                <param name='filter' value='publish=yes' />
+                            </object>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div id="conclusion-section" class="row">
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <h3 class="mt-2">Limitations</h3>
+                        <ul>
+                            <li class="result-text">The majority of columns in the food access dataset, specifically
+                                those
+                                related to the number
+                                and percentage share of residents living at various distances from food markets, were
+                                significantly incomplete.
+                                Therefore, we had to drop these columns in order to maintain a dataset large enough for
+                                machine
+                                learning,
+                                and were unable to include additional geospatial reference variables to enhance our
+                                analysis.
+                            </li>
+                            <li class="result-text">The data structure did not allow us to drill-down to subcategories
+                                of
+                                populations, for instance to identify people of a race/ethnicity that were also low
+                                income.
+                                We were therefore unable to explore why the % of households without vehicles was greater
+                                across census tracts in the US with food security for the majority of their residents,
+                                which
+                                seems
+                                counter-intuitive. One hypothesis is that there could be a higher cumulative number of
+                                households in
+                                dense population areas with access to food markets that do not require cars versus the
+                                cumulative number of
+                                households in less populated areas - but we have no means to check it using this
+                                dataset.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="class-md-12">
+                        <h3 class="mt-2">Conclusions</h3>
+                        <ul>
+                            <li class="result-text">
+                                We were able to achieve an accuracy 85% using neural network modeling and 82% using
+                                random
+                                forest classifier.
+                            </li>
+                            <li class="result-text">
+                                Although the dataset is imbalanced based on the random forest classifier tree plot, it
+                                falls
+                                within an acceptable
+                                range of skew (about 66%/33%) and should not significantly impact the results. Further
+                                analysis could include
+                                some type of data augmentation, such as SMOTE, to correcty any obvious imbalance.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div id="team-section" class="row">
+                <div class="row mt-5">
+                    <h3>Meet the Team</h3>
+                </div>
+                <div class="team-container">
+                    <div class="team-member">
+                        <img src="../static/img/pic-faulkner.jpg" alt="Team Member 1">
+                        <p>Alison Faulkner</p>
+                        <span>Neural Navigator</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="../static/img/pic-sontakke.jpg" alt="Team Member 2">
+                        <p>Dipti Sontakke</p>
+                        <span>Visualization Virtuoso</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="../static/img/pic-JS.jpg" alt="Team Member 3">
+                        <p>Jovawnte Stovall</p>
+                        <span>Curating Craftsman</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="../static/img/pic-rai.jpg" alt="Team Member 4">
+                        <p>Meena Rai</p>
+                        <span>Research Raconteur</span>
+                    </div>
+                    <div class="team-member">
+                        <img class="pr-4" src="../static/img/pic-park.jpg" alt="Team Member 5">
+                        <p>Meeyoung Park</p>
+                        <span>Cat-herding Champion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Load jQuery from a CDN -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <!-- Load Popper.js from a CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Load Bootstrap JavaScript from a CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+        <!-- LeafletJS plugin -->
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+        <script src="https://unpkg.com/leaflet-polylinedecorator"></script>
+
+        <!-- LeafletJS heatmap plugin -->
+        <script type="text/javascript" src="../static/js/leaflet-heat.js"></script>
+
+        <!-- d3 plugin -->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+
+        <!-- Page logic -->
+        <script type="text/javascript" src="../static/js/logic.js"></script>
+
+        <!-- Script for tableau -->
+        <script type='text/javascript' src="../static/js/tableau.js"></script>
+    </body>
+
+</html>
